@@ -1,0 +1,96 @@
+CRITICAL - 2022-06-21 05:32:01 --> Unmatched '}'
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('portofolio')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('portofolio')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+CRITICAL - 2022-06-21 05:33:23 --> Unmatched '}'
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('portofolio')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('portofolio')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#6 {main}
+CRITICAL - 2022-06-21 05:33:36 --> Cannot redeclare App\Models\DataDiri::hapusBarang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-21 07:10:27 --> Cannot redeclare App\Models\DataDiri::hapusBarang()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-06-21 07:10:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-21 07:10:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Portofolio.php(15): CodeIgniter\BaseModel->first()
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Portofolio->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portofolio))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+ERROR - 2022-06-21 07:11:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-21 07:11:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Portofolio.php(15): CodeIgniter\BaseModel->first()
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Portofolio->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portofolio))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-21 08:29:08 --> Invalid file: portofolio.php
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('portofolio.php')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('portofolio', Array, true)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Aboute.php(15): view('portofolio', Array)
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Aboute->index()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aboute))
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+CRITICAL - 2022-06-21 08:29:54 --> Undefined variable $identitas
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\portofolio\cv_dua.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 15)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('portofolio/cv_d...', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Aboute.php(15): view('portofolio/cv_d...', Array)
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Aboute->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aboute))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-21 08:31:25 --> Undefined variable $identitas
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\portofolio\cv_dua.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 15)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('portofolio/cv_d...', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Aboute.php(15): view('portofolio/cv_d...', Array)
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Aboute->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aboute))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-21 08:34:57 --> Undefined variable $identitas
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\portofolio\cv_dua.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 15)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('portofolio/cv_d...', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Aboute.php(15): view('portofolio/cv_d...', Array)
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Aboute->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aboute))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2022-06-09 00:59:56 --> Undefined variable $nama
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\portofolio\cv_dua.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 15)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('portofolio/cv_d...', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Portofolio.php(15): view('portofolio/cv_d...', Array)
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Portofolio->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portofolio))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-09 01:00:24 --> Undefined variable $nama
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\portofolio\cv_dua.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 47)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('portofolio/cv_d...', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Portofolio.php(15): view('portofolio/cv_d...', Array)
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Portofolio->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portofolio))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}

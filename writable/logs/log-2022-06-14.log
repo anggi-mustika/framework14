@@ -1,0 +1,61 @@
+ERROR - 2022-06-14 23:12:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-14 23:12:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Portofolio.php(15): CodeIgniter\BaseModel->first()
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Portofolio->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Portofolio))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 23:13:42 --> Undefined variable $nama
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\cv\cv.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 11)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('cv/cv', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Cv.php(9): view('cv/cv')
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cv->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cv))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 23:13:58 --> Undefined variable $nama
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\cv\cv.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 11)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('cv/cv', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Cv.php(9): view('cv/cv')
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cv->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cv))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}
+CRITICAL - 2022-06-14 23:15:52 --> Call to undefined function set_value()
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('cv/cv', Array, true)
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Cv.php(9): view('cv/cv')
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Cv->index()
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cv))
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#9 {main}
+CRITICAL - 2022-06-14 23:44:34 --> Undefined variable $nama
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Views\aboute\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\USER\\D...', 11)
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('aboute/index', Array, true)
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\Aboute.php(9): view('aboute/index')
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Aboute->index()
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aboute))
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}

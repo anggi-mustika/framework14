@@ -1,0 +1,49 @@
+CRITICAL - 2022-05-24 22:16:05 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-24 22:16:12 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-24 22:16:13 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-24 22:17:21 --> Invalid file: aboute.php
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aboute.php')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('aboute', Array, true)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\aboute.php(9): view('aboute')
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ABOUTE->index()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ABOUTE))
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+CRITICAL - 2022-05-24 22:17:23 --> Invalid file: aboute.php
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aboute.php')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('aboute', Array, true)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\aboute.php(9): view('aboute')
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ABOUTE->index()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ABOUTE))
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+CRITICAL - 2022-05-24 22:17:39 --> Invalid file: index.php
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\aboute.php(9): view('index')
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ABOUTE->index()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ABOUTE))
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
+CRITICAL - 2022-05-24 22:17:41 --> Invalid file: index.php
+#0 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\USER\Documents\xampp\htdocs\ci4\app\Controllers\aboute.php(9): view('index')
+#3 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ABOUTE->index()
+#4 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ABOUTE))
+#5 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\USER\Documents\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\USER\Documents\xampp\htdocs\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#8 {main}
